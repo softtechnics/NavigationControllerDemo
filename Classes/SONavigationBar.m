@@ -90,6 +90,9 @@
 - (void)dealloc 
 {
 	[fItemsStack release];
+	[titleLabel release];
+	[transitionLeftButton release];
+	[transitionTitleLable release];
 	[leftButton release];
     [super dealloc];
 }
